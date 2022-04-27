@@ -13,7 +13,6 @@ const Pessoa = require('./model/dbPessoa');
 
 
 const MongoClient = require('mongodb').MongoClient;
-//const uri = 'mongodb+srv://tiburcio95:daniel1995@cluster0.8nh1a.mongodb.net/ProjetoFinal?retryWrites=true&w=majority'
 const uri = 'mongodb+srv://Daniel95:Aguiar95@cluster0.zlppx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 const database_name = 'SRS';
 const collection_name= 'Pessoa';
