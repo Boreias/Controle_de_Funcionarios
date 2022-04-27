@@ -222,7 +222,7 @@ class TelaConsultarFuncionario(FloatLayout):
 
         self.botaoExcluir = Button(text='Excluir', font_size=14, size_hint=(.35, .1), pos_hint={'center_x': .5, 'y': .15},
                                   color='#FFFFFF', background_color='#00b8f5', opacity=0)
-        self.botaoExcluir.on_press = self.ExcluirFuncionario # Ajustar
+        self.botaoExcluir.on_press = self.ExcluirFuncionario
         self.animacaoAparecer.start(self.botaoExcluir)
         self.add_widget(self.botaoExcluir)
 
@@ -331,7 +331,7 @@ class TelaEditarDados(FloatLayout):
 
         self.botaoEditar = Button(text='Salvar Alterações', font_size=14, size_hint=(.35, .1), pos_hint={'center_x': .5, 'y': .25},
                                   color='#FFFFFF', background_color='#00b8f5', opacity=0)
-        self.botaoEditar.on_press = self.EditarDados  # Ajustar
+        self.botaoEditar.on_press = self.EditarDados
         self.animacaoAparecer.start(self.botaoEditar)
         self.add_widget(self.botaoEditar)
 
